@@ -100,10 +100,10 @@ void loop(void)
     
     // PRINT
     Serial.println(subsCount);
-    // P.print("*" + subsCount); 
-    // delay(3500);
-    P.print("*" + viewCount);
+    P.print("*" + subsCount); 
     delay(3500);
+    // P.print("*" + viewCount);      //Uncomment if you want to display your
+    // delay(3500);                   //YouTube channel view count.
     P.print("&" + instaFollowers); 
     delay(5000);
     }}
